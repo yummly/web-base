@@ -2,7 +2,7 @@ FROM ubuntu:trusty
 
 MAINTAINER vadim@yummly.com
 
-ENV NODE_VERSION 0.10.36
+ENV NODE_VERSION v0.10.36
 
 RUN DEBIAN_FRONTEND=noninteractive apt-get -qq update && \
     apt-get -q -y install dnsmasq nginx supervisor openssh-server daemontools logrotate curl make g++ && \
