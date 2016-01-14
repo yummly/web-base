@@ -2,7 +2,7 @@ FROM nginx
 
 MAINTAINER vadim@yummly.com
 
-ENV NODE_VERSION v0.10.39
+ENV NODE_VERSION v0.10.41
 
 RUN DEBIAN_FRONTEND=noninteractive apt-get -qq update && \
     apt-get -q -y install dnsmasq supervisor daemontools logrotate curl make g++ git && \
